@@ -1,3 +1,5 @@
+(function () {
+    "use strict";
 angular.module('testewmfc').factory('jwtInterceptor', jwtInterceptor);
 
 	function jwtInterceptor($window, $q, $location){
@@ -27,3 +29,4 @@ angular.module('testewmfc').factory('jwtInterceptor', jwtInterceptor);
 		}
 		return jwtInterceptor;
 	}
+}());
