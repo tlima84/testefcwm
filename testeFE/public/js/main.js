@@ -1,3 +1,6 @@
+(function () {
+    "use strict";
+
 angular.module('testewmfc', ['ngRoute', 'ngResource'])
 	.config(function($routeProvider, $locationProvider, $httpProvider) {
 		
@@ -16,3 +19,4 @@ angular.module('testewmfc', ['ngRoute', 'ngResource'])
 		$routeProvider.otherwise({redirectTo: '/produtos'});
 
 });
+}());
