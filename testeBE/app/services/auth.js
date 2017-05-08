@@ -1,7 +1,7 @@
-let mongoose = require('mongoose');
-let jwt  = require('jsonwebtoken'); 
-let crypto = require('crypto');
-let secret = 'hodor'
+const mongoose = require('mongoose');
+const jwt  = require('jsonwebtoken'); 
+const crypto = require('crypto');
+const secret = 'hodor'
 
 
 module.exports = app => {
