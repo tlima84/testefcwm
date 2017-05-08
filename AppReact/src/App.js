@@ -33,7 +33,7 @@ class App extends Component {
         <MuiThemeProvider  muiTheme={muiTheme}> 
           <div>
             
-            <div id="div_main" className="main">
+            <div id="div_main">
               <AppBar title={<div className="img-tam"><img alt="fSociety"src={logoMrro} className="logo-robot"></img></div>}  iconElementRight={ <Avatar src={imgAvatar} />}/>
               <Lista/>
             </div> 
