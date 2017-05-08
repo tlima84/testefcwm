@@ -6,8 +6,12 @@ O desafio:
  - E criar uma SPA, utilizei AngularJS, que apenas usuarios autenticados na API rest acima podem acessar a lista.
  - Utilizar MONGODB
 
--O projeto da API rest : testeBE
--O projeto da SPA : testeFE
+- O projeto da API rest : testeBE
+- O projeto da SPA : testeFE
+
+Existe um terceiro projeto seguindo escopo da SPA em React
+
+- ReactApp
 
 Para autenticacao:
 
