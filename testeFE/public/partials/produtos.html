@@ -1,0 +1,21 @@
+<div class="container">
+<p ng-show="vmAuthCtrl.mensagem.length" class="alert alert-info">
+		{{vmProdutosController.mensagem}}
+</p>
+<h2>Produtos</h2>	
+<div class="container-img">
+	<img class="img-responsive container-img" src="http://localhost:3021/img/main-img.jpg" alt="capa">
+</div>
+<div class="row">
+	<div class="item-label">
+		<label class="col-md-12">{{vmProdutosController.produtos.length}} itens</label>
+	</div>	 	
+	<div class="panel panel-default col-md-3 panel-fotos" ng-repeat="produto in vmProdutosController.produtos track by produto._id" >
+		<div style="padding: 0.01em 16px;">
+		<label class="col-md-12">{{produto.descricao}}</label>
+		<img class="img-responsive center-block" ng-src="{{produto.imagem}}" alt="{{produto.nome}}">
+		<label class="preco-label col-md-12">{{produto.preco | currency:"R$":2}}</label>
+		</div>
+	</div>
+</div>
+</div>

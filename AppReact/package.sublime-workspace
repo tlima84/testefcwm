@@ -1,0 +1,230 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cl",
+				"className"
+			],
+			[
+				"mag",
+				"margin-left"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"src",
+				"src/css/fonts/roboto-fonts.css"
+			],
+			[
+				"images",
+				"src/images/img.jpg"
+			],
+			[
+				"cla",
+				"className"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 588.0,
+		"last_filter": "Pack",
+		"selected_items":
+		[
+			[
+				"Pack",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 624.0
+	},
+	"console":
+	{
+		"height": 227.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Ambiente de Desenvolvimento/Project React/AppReact/src/App.css",
+		"/C/Ambiente de Desenvolvimento/Project React/AppReact/src/css/App.css",
+		"/C/Ambiente de Desenvolvimento/Project React/AppReact/node_modules/echarts/README.md",
+		"/C/Ambiente de Desenvolvimento/Project React/AppReact/src/App.js",
+		"/C/Ambiente de Desenvolvimento/Project React/AppReact/src/index.css",
+		"/C/Ambiente de Desenvolvimento/Project React/AppReact/node_modules/material-ui/styles/MuiThemeProvider.js",
+		"/C/Ambiente de Desenvolvimento/Project React/AppReact/package.json",
+		"/C/Ambiente de Desenvolvimento/Project React/AppReact/src/MyAwesomeReactComponent.js",
+		"/C/Ambiente de Desenvolvimento/Project React/AppReact/public/index.html",
+		"/C/Ambiente de Desenvolvimento/Project React/AppReact/src/css/fonts/roboto-fonts.css",
+		"/C/Ambiente de Desenvolvimento/Project React/AppReact/webpack.config.js",
+		"/C/Ambiente de Desenvolvimento/Project React/AppReact/src/index.js",
+		"/C/Ambiente de Desenvolvimento/Project React/AppReact/node_modules/jsdom/lib/jsdom/living/nodes/Document-impl.js"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 138.0,
+		"where_history":
+		[
+			"C:\\Ambiente de Desenvolvimento\\Project React\\AppReact"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"constructor",
+			"newStyle",
+			"const recentsIcon = <FontIcon className=\"material-icons\">restore</FontIcon>;\nconst favoritesIcon = <FontIcon className=\"material-icons\">favorite</FontIcon>;\nconst nearbyIcon = <IconLocationOn />;",
+			"Paper zDepth={1}>\n              Texto\n            </Paper>",
+			"MenuItem",
+			" \n",
+			",\n    appBar: {\n      height: 50,\n    },",
+			"const imgStyle = {\n      width:100%\n    };",
+			" {<Avatar src={imgAvatar} />}",
+			"src",
+			"this",
+			"MyAwesomeReactComponent",
+			"from",
+			"/>\n",
+			"--\n      Notice the use of %PUBLIC_URL% in the tag above.\n      It will be replaced with the URL of the `public` folder during the build.\n      Only files inside the `public` folder can be referenced from the HTML.\n\n      Unlike \"/favicon.ico\" or \"favicon.ico\", \"%PUBLIC_URL%/favicon.ico\" will\n      work correctly both with client-side routing and a non-root public URL.\n      Learn how to configure a non-root public URL by running `npm run build`.\n    -->",
+			"<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css\">\n\n    <!-- Optional theme -->\n    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap-theme.min.css\">",
+			"                \n",
+			" <div className=\"profile clearfix\">\n                  <div className=\"profile_pic\">\n                    <img src=\"./images/img.jpg\" alt=\"...\" className=\"img-circle profile_img\"></img></div>\n                  <div className=\"profile_info\">\n                    <span>Welcome,</span>\n                    <h2>John Doe</h2>\n                  </div>\n                </div>\n                <br/>",
+			"import"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.0
+	},
+	"input":
+	{
+		"height": 49.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "package.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 461.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

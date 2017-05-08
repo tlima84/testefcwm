@@ -1,0 +1,21 @@
+{
+  "name": "testebe",
+  "version": "1.0.0",
+  "description": "Teste tecnico para construir um backend em nodejs",
+  "main": "index.js",
+  "scripts": {
+    "seed": "node ./seeds/seed.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thiago Lima",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "consign": "^0.1.4",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.4.0",
+    "mongoose": "^4.9.7"
+  }
+}

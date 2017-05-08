@@ -1,0 +1,20 @@
+<div class="container" style="margin-top: 200px;
+	padding-bottom: 50px;
+	width: 600px;">
+<div class="container-login">
+<h1 class="text-center">Autentique-se</h1>
+<p class="alert-danger"></p>
+<form ng-submit="vmAuthCtrl.autenticar()">
+	<p ng-show="vmAuthCtrl.mensagem.length" class="alert alert-info">
+		{{vmAuthCtrl.mensagem}}
+	</p>
+	<div class="form-group">
+		<input type="text" class="form-control login-input" placeholder="Login" data-ng-model="vmAuthCtrl.usuario.login">
+	</div>
+	<div class="form-group">
+		<input type="password" class="form-control login-input" placeholder="Senha" data-ng-model="vmAuthCtrl.usuario.senha">
+	</div>		
+	<input type="submit" value="Entrar" class="btn btn-primary"></button>
+</form>
+</div>
+</div>

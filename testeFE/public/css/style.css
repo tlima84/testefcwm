@@ -1,0 +1,29 @@
+.panel-fotos{
+	border: 0;
+	margin-top: 15px;
+}
+
+.container-img {
+   width: 100%;
+}
+
+.preco-label{
+	color: #4caf50;
+}
+body {
+	font-family: "Open Sans",sans-serif;
+	background-color: #ddd;
+}
+body .container{
+	background-color: #FFFFFF;
+}
+
+.login-input{
+	height: 50px;
+	width: 100%;
+}
+.item-label{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
