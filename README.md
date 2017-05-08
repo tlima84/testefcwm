@@ -6,8 +6,15 @@ O desafio:
  - E criar uma SPA, utilizei AngularJS, que apenas usuarios autenticados na API rest acima podem acessar a lista.
  - Utilizar MONGODB
 
-O projeto da API rest : testeBE
-O projeto da SPA : testeFE
+-O projeto da API rest : testeBE
+-O projeto da SPA : testeFE
+
+Para autenticacao:
+
+```
+Usuario: usuario
+Senha: 123456
+```
 
 Existe um terceiro projeto(AppReact), também um SPA, no repositorio deste teste utilizando ReactJS seguindo o mesmo padrão da SPA exigida, porém com uma lista de pessoas. 
 
