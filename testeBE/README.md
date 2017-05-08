@@ -9,7 +9,7 @@ http://localhost:27017/teste. Caso seja necessário alterar a porta as configura
 * `testeBE/seeds/seed.js`
 * `testeBE/app.js`
 
-Estando o MONGODB disponivel na pasta raiz (testeBE) rode o comando:
+Após o db iniciado va na pasta raiz (testeBE) do projeto rode o comando:
 
 ```
 npm install
