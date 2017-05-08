@@ -1,3 +1,6 @@
+(function () {
+    "use strict";
+
 angular.module('testewmfc').factory('TesteBEService', testeBEService);
 
 
@@ -60,3 +63,4 @@ angular.module('testewmfc').factory('TesteBEService', testeBEService);
 		return defer.promise;
 	}
 }
+}());
