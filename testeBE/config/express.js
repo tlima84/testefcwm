@@ -1,19 +1,19 @@
-let express = require('express');
-let bodyParser = require('body-parser');
-let cors = require('cors')
+const express = require('express');
+const bodyParser = require('body-parser');
+const cors = require('cors');
+const consign = require('consign');
 
-let expressApp = express();
+const expressApp = express();
 
 expressApp.use(cors());
 
 expressApp.use(bodyParser.json());
-expressApp.use(express.static('public'))
+expressApp.use(express.static('public'));
+
 /*
 //app que efetua os requires de 
 //modulos de maneira automática pasta por pasta
 */
-let consign = require('consign');
-
 consign({cwd: 'app'})
     .include('models')
  	.then('services')
