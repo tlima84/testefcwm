@@ -1,12 +1,12 @@
-angular.module('testewmfc').controller('AuthController', function(TesteBEService, $http,$location) {
+(function () {
+    "use strict";
+angular.module('testewmfc').controller('AuthController', function($http,$location) {
 		let vmAuthCtrl = this;
 		vmAuthCtrl.usuario = {};
 
 		vmAuthCtrl.autenticar = autenticar;
 
 		function autenticar(){
-
-			//TesteBEService.auth({login: vmAuthCtrl.usuario.login, senha: vmAuthCtrl.usuario.senha});
 			$http.post('http://localhost:3021/autenticar', 
 				{login: vmAuthCtrl.usuario.login, senha: vmAuthCtrl.usuario.senha})
 	        .then(function() {
@@ -19,3 +19,4 @@ angular.module('testewmfc').controller('AuthController', function(TesteBEService
 
 });
 
+}());
